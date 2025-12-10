@@ -1,0 +1,19 @@
+Activity2:
+
+-- Inserted multiple rows at once
+INSERT ALL
+    INTO salesman VALUES(501591, 'Pit Alex', 'London', 11)
+    INTO salesman VALUES(501592, 'McLyon', 'Paris', 12)
+    INTO salesman VALUES(501593, 'Paul Adam', 'Rome', 13)
+    INTO salesman VALUES(501594, 'Lauson Hen', 'San Jose', 14)
+    INTO salesman VALUES(501595, 'Lauson Hen', 'Perth', 15)
+SELECT 1 FROM DUAL;
+
+Output:
+5 rows inserted.
+
+-- Checking table values
+-- View data from all columns
+SELECT * FROM salesman;
+
+Output:
